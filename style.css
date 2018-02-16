@@ -1,0 +1,26 @@
+html,body{
+	height: 100%;
+
+}
+
+body{
+/*background:lightblue;*/
+background: linear-gradient(#FFFFFF,#41EBFF,#02E9F2);
+}
+
+.caja{
+	background: rgba(0,0,0,0.5);
+	border-radius: 50%;
+	box-shadow: 0.2em 0.2em 0.8em #000;
+	height: 400px;
+	margin:0 auto;
+	width: 400px;
+	transition: all linear 3s;
+}
+
+.caja:hover{
+	background-color: gold;
+	border-radius: 0;
+	cursor: pointer;
+	
+}
